@@ -4,6 +4,7 @@ import MapView, { Marker, Circle, PROVIDER_GOOGLE } from 'react-native-maps';
 import Geolocation from '@react-native-community/geolocation';
 import Share from 'react-native-share';
 import MapViewDirections from 'react-native-maps-directions';
+import GOOGLE_MAPS_APIKEY from '../constant';
 
 const customMarkerImage = require('../assets/img.png');
 
@@ -29,7 +30,7 @@ const styles = StyleSheet.create({
   },
 });
 
-const GOOGLE_MAPS_APIKEY = 'AIzaSyBPZWN0lCwH4BcFdeg7-R_dHAD42hoCS_4'; 
+
 
 export default function MapScreen() {
   const [myLocation, setMyLocation] = useState({

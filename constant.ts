@@ -1,0 +1,2 @@
+const  GOOGLE_MAPS_APIKEY = 'AIzaSyBPZWN0lCwH4BcFdeg7-R_dHAD42hoCS_4'; 
+export default GOOGLE_MAPS_APIKEY
