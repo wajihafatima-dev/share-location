@@ -5,7 +5,7 @@ const WelcomeScreen: React.FC<any> = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <Text style={styles.welcomeText}>Welcome!</Text>
-      <Text style={styles.subText}>Find the things that you Love!</Text>
+      <Text style={styles.subText}>Find the things that you Want!</Text>
       <Image
         source={require('../assets/Group.jpg')}
         style={styles.image}
